@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding">
+        <action
+            android:id="@+id/action_onBoardingFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_selectTopicFragment"
+            app:destination="@id/selectTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectTopicFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.SelectTopicFragment"
+        android:label="fragment_select_topic"
+        tools:layout="@layout/fragment_select_topic">
+        <action
+            android:id="@+id/action_selectTopicFragment_to_homeFragment"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/home"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_categoriesFragment"
+            app:destination="@id/categories" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_homeFragment_to_savedFragment"
+            app:destination="@id/saved" />
+    </fragment>
+    <fragment
+        android:id="@+id/categories"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/saved"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.SavedFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved" />
+    <fragment
+        android:id="@+id/seeAllFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.SeeAllFragment"
+        android:label="fragment_see_all"
+        tools:layout="@layout/fragment_see_all" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/newsViewFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.NewsViewFragment"
+        android:label="fragment_news_view"
+        tools:layout="@layout/fragment_news_view" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="uz.ismoilroziboyev.nuntium.fragments.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+</navigation>
