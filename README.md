@@ -21,17 +21,22 @@ Nuntuim news app is a personalised news aggregator that organises and highlights
 
 <i><b>Access your favourite news and magazine subscriptions, together</b></i>
 
-• If you want to support your favourite news publisher, we’ve made it simple to subscribe with your Google Account. This means no more forms, credit card numbers or new passwords. Easily access them all within the same app.
+• If you want to support your favourite news publisher. This means no more forms, credit card numbers or new passwords. Easily access them all within the same app.
 
 <i><b>A smart news app built for every phone, everywhere</b></i>
 
-• Google News is designed to meet the needs of users with different phones and levels of connection.
+• Nuntium is designed to meet the needs of users with different phones and levels of connection.
 
-• When your connection isn’t strong or you need to save data, Google News will continue to work smoothly by slimming down the size of images and downloading less data.
+• When your connection isn’t strong or you need to save data, Nuntium will continue to work smoothly by slimming down the size of images and downloading less data.
 
 • Articles can be downloaded over Wi-Fi to save for reading later when you are offline.
 
-
 <i><b>Screenshots from Nuntium App</b></i>
 
- - Screenshots on light mode
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-24.jpg)  |  ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-19.jpg)
+![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-22.jpg) | ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-18.jpg)
+![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-20.jpg) | ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-14.jpg)
+
+
