@@ -33,7 +33,7 @@ Nuntuim news app is a personalised news aggregator that organises and highlights
 
 <i><b>Screenshots from Nuntium App</b></i>
 
-Solarized dark             |  Solarized Ocean
+Light Mode           |  Dark Mode
 :-------------------------:|:-------------------------:
 ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-24.jpg)  |  ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-19.jpg)
 ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-22.jpg) | ![Alt text](https://github.com/Ismoil231/nuntiumNewsApp/blob/master/photo_2021-12-03_13-40-18.jpg)
